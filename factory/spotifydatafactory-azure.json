@@ -1,0 +1,15 @@
+{
+	"name": "spotifydatafactory-azure",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "937f48c9-b01f-4d83-ae9f-33d62a657c02",
+		"tenantId": "5f3d20b4-98d2-48f9-bb7d-d413e15fd3dc"
+	}
+}
